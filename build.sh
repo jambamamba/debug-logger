@@ -91,7 +91,7 @@ function build(){
 }
 
 function main(){
-    local library="debug-logger"
+    local library="debug_logger"
     local target="x86"
     parseArgs $@
 
