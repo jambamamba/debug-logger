@@ -1,5 +1,5 @@
 ﻿cmake_minimum_required (VERSION 3.8)
-set (project "debug-logger")
+set (project "debug_logger")
 project(${project} CXX C)
 
 # make cache variables for install destinations
