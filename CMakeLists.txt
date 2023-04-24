@@ -23,6 +23,7 @@ set (INC_DIRS
     )
 
 set(LIBS
+   pthread
 )
 add_library (${project} SHARED ${SOURCES})
 target_include_directories(${project} PUBLIC ${INC_DIRS})
